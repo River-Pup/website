@@ -1,1 +1,10 @@
-
+div {
+    border-color: #616161;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 12px;
+    padding: 10px;
+    direction: row;
+    align-items: center;
+    gap: 10;
+}

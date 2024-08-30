@@ -1,0 +1,201 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body{
+margin: 7%;
+font-family: 'open', sans-serif;
+font-size: 16px;
+color: #000000;
+}
+
+.napture{
+  font-size: 0px;
+}
+
+.sidebg{
+background-image: url('../icons/WWd5ZJ1.png');
+background-repeat: repeat-y;
+background-position: top right;
+width: 200px;
+height: 100%;
+position: fixed;
+top: 0;
+left: 0;
+}
+
+.side{
+background-color: #fffefc;
+width: 176px;
+height: 100%;
+padding: 1rem 0.5rem 1rem 1rem;
+text-align: center;
+font-size: 15px;
+display: flex;
+flex-direction: column;
+gap: 1rem;
+}
+
+.avatar{
+width: 100%;
+opacity: 0.9;
+}
+
+.desc{
+padding: 0.5rem;
+}
+
+.sideheaders{
+font-family: 'mariokart', serif;
+font-weight: normal;
+font-size: 28px;
+}
+
+.side ul{
+padding-left: 2.5rem;
+}
+
+.side li{
+font-size: 16px;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+margin-left: 200px;
+}
+
+.headerwrapper{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.title{
+font-family: 'mariokart', serif;
+font-weight: normal;
+color: #786090;
+font-size: 46px;
+align-self: end;
+margin-left: -1rem;
+}
+
+.headerimg{
+width: 150px;
+align-self: end;
+position: relative;
+z-index: 1;
+}
+
+.boxgap{
+display: flex;
+flex-direction: column;
+gap: 1rem;
+}
+
+.box{
+display: flex;
+flex-direction: row;
+background-color: #fffefc;
+border: 3px solid #786090;
+}
+
+.left{
+border-right: 3px solid #786090;
+padding: 0.7rem;
+text-align: center;
+}
+
+.icon{
+border: 2px solid #786090;
+}
+
+.right{
+padding: 1rem;
+}
+
+a{
+color: #786090;
+text-decoration: none;
+}
+
+a:visited{
+color: #786090;
+}
+
+a:hover{
+font-weight: bold;
+}
+
+a:active{
+font-style: italic;
+font-weight: normal;
+}
+
+
+
+::-webkit-scrollbar{
+width: 8px; 
+}
+    
+::-webkit-scrollbar-track{
+background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+background-color: #786090;
+}
+
+#credit{
+font-size: 12px;
+position: fixed;
+bottom: 0;
+right: 0;
+}
+
+@media(max-width:760px){
+body{
+margin: 0;
+padding: 1rem;
+}
+.sidebg{
+background-image: none;
+position: relative;
+top: 0;
+margin-bottom: 1rem;
+width: 100%;
+height: auto;
+}
+.side{
+height: auto;
+width: 100%;
+text-align: center;
+padding: 1rem;
+}
+.desc{
+font-size: 16px;
+}
+.side ul{
+padding: 0;
+}
+.side li{
+display: inline;
+margin-left: 4px;
+}
+.avatar{
+width: 50%;
+margin: 0 auto;
+}
+.container{
+margin: 0;
+}
+.headerimg{
+width: 180px;
+}
+.title{
+font-size: 36px;
+margin: 0;
+}
+}

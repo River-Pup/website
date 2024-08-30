@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="/fonts/font.css" rel="stylesheet">
+    <link href="/styles/pages.css" rel="stylesheet">
+  </head>
+  <body>
+      <div class="headerwrapper">
+        <!-- TITLE AND HEADER IMAGE -->
+        <h1 class="title">BRAINFUCK</h1>
+        <img class="headerimg" src="/art/pfp-t.png" id="header">
+      </div>
+    
+      <div class="boxgap">
+        <!-- POST START -->
+        <div class="box">
+          <!-- POST TEXT -->
+          <div class="right">
+          <p><input class="bfcode" placeholder="Enter Brainfuck code here"></input><button onclick="runBrainfuck()">Run</button></p>
+          <p><input class="bfinput" placeholder="Enter input for the Brainfuck code"></input></p>
+          <p>Output -&gt; <out class="bfoutput"></out></p>
+          <script src="brainfuck.js"></script>
+          </div>  
+        </div>
+        <!-- POST END -->
+      </div>
+      <div style="height:300px"></div>
+  </body>
+</html>

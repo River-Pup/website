@@ -1,0 +1,32 @@
+    @font-face {
+      font-family: "mariokart";
+      src: url("Mario-Kart-DS.ttf");
+    }
+    
+    @font-face{
+      font-family: "open";
+      font-weight: normal;
+      font-style: normal;
+      src: url("opensans/open.ttf");
+    }
+    
+    @font-face{
+      font-family: "open";
+      font-weight: bold;
+      font-style: normal;
+      src: url("opensans/open-b.ttf);
+    }
+    
+    @font-face{
+      font-family: "open";
+      font-weight: normal;
+      font-style: italic;
+      src: url("opensans/open-i.ttf);
+    }
+    
+    @font-face{
+      font-family: "open";
+      font-weight: bold;
+      font-style: italic;
+      src: url("opensans/open-bi.ttf);
+    }
